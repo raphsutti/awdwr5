@@ -10,7 +10,7 @@ atom_feed do |feed|
         xhtml.p "Shipped to #{order.address}"
 
         xhtml.table do
-          xhtmltr do
+          xhtml.tr do
             xhtml.th 'Product'
             xhtml.th 'Quantity'
             xhtml.th 'Total Price'
